@@ -1,4 +1,3 @@
-
 <div align="center">
 
 # Sutskever's List
@@ -8,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
-*"If you really learn all of these, you'll know 90% of what matters today."*  
+_"If you really learn all of these, you'll know 90% of what matters today."_  
 — Ilya Sutskever (Co-founder of OpenAI, Former Chief Scientist)
 
 [About](#about) • [Reading Roadmap](#reading-roadmap) • [Papers by Topic](#papers-by-topic) • [Getting Started](#getting-started) • [Contributing](#contributing)
@@ -46,6 +45,7 @@ Unlike most AI reading lists that grow indefinitely, Sutskever's list is deliber
 This roadmap organizes the list by difficulty and learning objectives. Each path builds on previous knowledge, so follow the progression unless you already have the prerequisites.
 
 ### Beginner Path
+
 **Prerequisites:** Basic programming, calculus, and linear algebra  
 **Goal:** Understand what neural networks are and how they work  
 **Time commitment:** 4-6 weeks
@@ -54,15 +54,15 @@ This roadmap organizes the list by difficulty and learning objectives. Each path
    Stanford's legendary course. Start here for the best introduction to deep learning fundamentals, covering everything from backpropagation to CNNs.  
    [Course Website](https://cs231n.github.io/)
 
-2. **The Unreasonable Effectiveness of RNNs** — *Andrej Karpathy*  
+2. **The Unreasonable Effectiveness of RNNs** — _Andrej Karpathy_  
    An intuitive, code-driven introduction to recurrent networks. Shows what RNNs can do before diving into how they work.  
    [Blog Post](https://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 
-3. **Understanding LSTM Networks** — *Christopher Olah*  
+3. **Understanding LSTM Networks** — _Christopher Olah_  
    The clearest visual explanation of LSTMs ever written. Essential for understanding sequence modeling.  
    [Blog Post](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
-4. **The Annotated Transformer** — *Harvard NLP*  
+4. **The Annotated Transformer** — _Harvard NLP_  
    A line-by-line implementation of "Attention is All You Need" with full working code. Learn by building.  
    [Blog Post](https://nlp.seas.harvard.edu/2018/04/03/attention.html)
 
@@ -71,6 +71,7 @@ This roadmap organizes the list by difficulty and learning objectives. Each path
    [Paper](https://proceedings.neurips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html)
 
 ### Intermediate Path
+
 **Prerequisites:** Completed Beginner Path or equivalent knowledge  
 **Goal:** Master core architectures and attention mechanisms  
 **Time commitment:** 6-8 weeks
@@ -95,86 +96,101 @@ This roadmap organizes the list by difficulty and learning objectives. Each path
     The right way to apply dropout to RNNs. Short but crucial for practical implementations.  
     [arXiv](https://arxiv.org/abs/1409.2329)
 
-11. **Identity Mappings in Deep Residual Networks**  
+11. **Generating Sequences With Recurrent Neural Networks**  
+    Alex Graves' masterpiece on sequence generation with RNNs. Introduces mixture density networks and shows how to generate handwriting and text.  
+    [arXiv](https://arxiv.org/abs/1308.0850)
+
+12. **On the difficulty of training Recurrent Neural Networks**  
+    Explains the vanishing/exploding gradient problem in RNNs and introduces gradient clipping. Essential for understanding RNN training challenges.  
+    [arXiv](https://arxiv.org/abs/1211.5063)
+
+13. **Identity Mappings in Deep Residual Networks**  
     Improves on ResNet by analyzing exactly how skip connections work. Important for architecture design.  
     [arXiv](https://arxiv.org/abs/1603.05027)
 
-12. **Order Matters: Sequence to Sequence for Sets**  
+14. **Order Matters: Sequence to Sequence for Sets**  
     Handling unordered data with sequence models. Clever solutions to important problems.  
     [arXiv](https://arxiv.org/abs/1511.06391)
 
-13. **Multi-Scale Context Aggregation by Dilated Convolutions**  
+15. **Multi-Scale Context Aggregation by Dilated Convolutions**  
     Efficient receptive fields without pooling. Key technique for semantic segmentation and dense prediction.  
     [arXiv](https://arxiv.org/abs/1511.07122)
 
 ### Advanced Path
+
 **Prerequisites:** Strong understanding of architectures from Intermediate Path  
 **Goal:** Explore novel architectures and advanced training techniques  
 **Time commitment:** 8-10 weeks
 
-14. **Neural Turing Machines**  
+16. **Neural Turing Machines**  
     Combining neural networks with external memory. Pioneering work in differentiable programming.  
     [arXiv](https://arxiv.org/abs/1410.5401)
 
-15. **A Simple Neural Network Module for Relational Reasoning**  
+17. **A Simple Neural Network Module for Relational Reasoning**  
     How to reason about relationships between objects. Enables compositional understanding.  
     [arXiv](https://arxiv.org/abs/1706.01427)
 
-16. **Relational Recurrent Neural Networks**  
+18. **Relational Recurrent Neural Networks**  
     Enhancing RNNs with relational inductive biases for improved reasoning.  
     [arXiv](https://arxiv.org/abs/1806.01822)
 
-17. **Variational Lossy Autoencoder**  
+19. **Variational Lossy Autoencoder**  
     Advanced generative modeling with hierarchical latent variables.  
     [arXiv](https://arxiv.org/abs/1611.02731)
 
-18. **GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism**  
+20. **GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism**  
     How to train models that don't fit on a single GPU. Essential for understanding modern large-scale training.  
     [arXiv](https://arxiv.org/abs/1811.06965)
 
-19. **Deep Speech 2: End-to-End Speech Recognition in English and Mandarin**  
+21. **Deep Speech 2: End-to-End Speech Recognition in English and Mandarin**  
     End-to-end speech recognition with RNNs. Shows how to apply deep learning to real-world audio problems.  
     [arXiv](https://arxiv.org/abs/1512.02595)
 
-20. **Neural Quantum Chemistry**  
+22. **Neural Quantum Chemistry**  
     Deep learning for molecular property prediction. Example of deep learning beyond traditional ML domains.  
     [arXiv](https://arxiv.org/abs/1704.01212)
 
+23. **Machine Learning: The High-Interest Credit Card of Technical Debt**  
+    Essential reading on ML systems engineering. Addresses the hidden costs and long-term maintenance challenges of ML systems in production.  
+    [PDF](https://research.google/pubs/pub43146/)
+
 ### Theory & Foundations
+
 **Prerequisites:** Strong mathematical background, comfort with information theory  
 **Goal:** Understand the theoretical underpinnings of why deep learning works  
 **Time commitment:** 10-12 weeks (can be done in parallel with other paths)
 
-21. **The First Law of Complexodynamics** — *Scott Aaronson*  
+24. **The First Law of Complexodynamics** — _Scott Aaronson_  
     Theoretical framework for understanding complexity in physical systems. Provides deep insights into learning and compression.  
     [Blog Post](https://scottaaronson.blog/?p=762)
 
-22. **Quantifying the Rise and Fall of Complexity in Closed Systems: The Coffee Automaton**  
+25. **Quantifying the Rise and Fall of Complexity in Closed Systems: The Coffee Automaton**  
     Formalizing intuitions about complexity. Important for understanding what neural networks can and cannot learn.  
     [arXiv](https://arxiv.org/abs/1306.6730)
 
-23. **Scaling Laws for Neural Language Models**  
+26. **Scaling Laws for Neural Language Models**  
     How model performance scales with compute, data, and parameters. Essential for understanding modern AI capabilities and limitations.  
     [arXiv](https://arxiv.org/abs/2001.08361)
 
-24. **A Tutorial Introduction to the Minimum Description Length Principle**  
+27. **A Tutorial Introduction to the Minimum Description Length Principle**  
     Compression and learning are two sides of the same coin. Fundamental principle underlying many ML algorithms.  
     [arXiv](https://arxiv.org/abs/math/0406077)
 
-25. **Keeping Neural Networks Simple by Minimizing the Description Length of the Weights**  
+28. **Keeping Neural Networks Simple by Minimizing the Description Length of the Weights**  
     Applying MDL to neural networks. Occam's razor formalized.  
     [PDF](https://www.cs.toronto.edu/~fritz/absps/colt93.pdf)
 
 ### Doctoral Level
+
 **Prerequisites:** All of the above, plus serious dedication  
 **Goal:** Achieve deep theoretical understanding  
 **Time commitment:** Several months
 
-26. **Machine Super Intelligence** — *Shane Legg*  
+29. **Machine Super Intelligence** — _Shane Legg_  
     PhD thesis on formal theories of intelligence and artificial general intelligence. Dense but rewarding.  
     [PDF](http://www.vetta.org/documents/Machine_Super_Intelligence.pdf)
 
-27. **An Introduction to Kolmogorov Complexity and Its Applications** (Chapter 7, page 434 onwards)  
+30. **An Introduction to Kolmogorov Complexity and Its Applications** (Chapter 7, page 434 onwards)  
     The mathematical foundations of information, randomness, and learning. Challenging but fundamental.  
     [PDF](https://www.lirmm.fr/~ashen/kolmbook-eng-scan.pdf)
 
@@ -184,80 +200,83 @@ This roadmap organizes the list by difficulty and learning objectives. Each path
 
 ### Foundational Architectures
 
-| Paper | Authors | Year | Key Innovation | Why It Matters |
-|-------|---------|------|----------------|----------------|
-| [ImageNet Classification with Deep CNNs](https://proceedings.neurips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html) | Krizhevsky, Sutskever, Hinton | 2012 | Deep CNNs + GPU training + ReLU + Dropout | Proved deep learning works at scale, sparked the modern AI revolution |
-| [Deep Residual Learning](https://arxiv.org/abs/1512.03385) | He et al. | 2015 | Skip connections enabling very deep networks | Made 100+ layer networks trainable, foundation of most modern architectures |
-| [Identity Mappings in Deep Residual Networks](https://arxiv.org/abs/1603.05027) | He et al. | 2016 | Analysis and improvement of ResNet design | Clarified why skip connections work so well |
+| Paper                                                                                                                                               | Authors                       | Year | Key Innovation                               | Why It Matters                                                              |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | ---- | -------------------------------------------- | --------------------------------------------------------------------------- |
+| [ImageNet Classification with Deep CNNs](https://proceedings.neurips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html) | Krizhevsky, Sutskever, Hinton | 2012 | Deep CNNs + GPU training + ReLU + Dropout    | Proved deep learning works at scale, sparked the modern AI revolution       |
+| [Deep Residual Learning](https://arxiv.org/abs/1512.03385)                                                                                          | He et al.                     | 2015 | Skip connections enabling very deep networks | Made 100+ layer networks trainable, foundation of most modern architectures |
+| [Identity Mappings in Deep Residual Networks](https://arxiv.org/abs/1603.05027)                                                                     | He et al.                     | 2016 | Analysis and improvement of ResNet design    | Clarified why skip connections work so well                                 |
 
 ### Recurrent Networks & Sequential Processing
 
-| Paper | Authors | Year | Key Innovation | Why It Matters |
-|-------|---------|------|----------------|----------------|
-| [The Unreasonable Effectiveness of RNNs](https://karpathy.github.io/2015/05/21/rnn-effectiveness/) | Karpathy | 2015 | Accessible introduction to RNN capabilities | Best first introduction to sequence modeling |
-| [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) | Olah | 2015 | Clear visual explanation of LSTM architecture | The definitive LSTM explainer |
-| [Recurrent Neural Network Regularization](https://arxiv.org/abs/1409.2329) | Zaremba et al. | 2014 | Proper dropout for RNNs | Essential technique for training RNNs |
-| [Deep Speech 2](https://arxiv.org/abs/1512.02595) | Amodei et al. | 2015 | End-to-end speech recognition | Shows how to apply deep learning to real audio |
+| Paper                                                                                              | Authors        | Year | Key Innovation                                      | Why It Matters                                      |
+| -------------------------------------------------------------------------------------------------- | -------------- | ---- | --------------------------------------------------- | --------------------------------------------------- |
+| [The Unreasonable Effectiveness of RNNs](https://karpathy.github.io/2015/05/21/rnn-effectiveness/) | Karpathy       | 2015 | Accessible introduction to RNN capabilities         | Best first introduction to sequence modeling        |
+| [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)          | Olah           | 2015 | Clear visual explanation of LSTM architecture       | The definitive LSTM explainer                       |
+| [Recurrent Neural Network Regularization](https://arxiv.org/abs/1409.2329)                         | Zaremba et al. | 2014 | Proper dropout for RNNs                             | Essential technique for training RNNs               |
+| [Generating Sequences With Recurrent Neural Networks](https://arxiv.org/abs/1308.0850)             | Graves         | 2013 | Sequence generation with mixture density networks   | Masterpiece on generating handwriting and text      |
+| [On the difficulty of training RNNs](https://arxiv.org/abs/1211.5063)                              | Pascanu et al. | 2012 | Vanishing/exploding gradients and gradient clipping | Essential for understanding RNN training challenges |
+| [Deep Speech 2](https://arxiv.org/abs/1512.02595)                                                  | Amodei et al.  | 2015 | End-to-end speech recognition                       | Shows how to apply deep learning to real audio      |
 
 ### Attention & Transformers
 
-| Paper | Authors | Year | Key Innovation | Why It Matters |
-|-------|---------|------|----------------|----------------|
+| Paper                                                                                                    | Authors         | Year | Key Innovation                  | Why It Matters                                           |
+| -------------------------------------------------------------------------------------------------------- | --------------- | ---- | ------------------------------- | -------------------------------------------------------- |
 | [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473) | Bahdanau et al. | 2014 | Attention mechanism for seq2seq | Introduced the attention mechanism used everywhere today |
-| [Attention Is All You Need](https://arxiv.org/abs/1706.03762) | Vaswani et al. | 2017 | Transformer architecture | Powers GPT, BERT, and nearly all modern NLP |
-| [The Annotated Transformer](https://nlp.seas.harvard.edu/2018/04/03/attention.html) | Rush et al. | 2018 | Line-by-line implementation | Learn transformers by building one |
+| [Attention Is All You Need](https://arxiv.org/abs/1706.03762)                                            | Vaswani et al.  | 2017 | Transformer architecture        | Powers GPT, BERT, and nearly all modern NLP              |
+| [The Annotated Transformer](https://nlp.seas.harvard.edu/2018/04/03/attention.html)                      | Rush et al.     | 2018 | Line-by-line implementation     | Learn transformers by building one                       |
 
 ### Novel Architectures & Mechanisms
 
-| Paper | Authors | Year | Key Innovation | Why It Matters |
-|-------|---------|------|----------------|----------------|
-| [Pointer Networks](https://arxiv.org/abs/1506.03134) | Vinyals et al. | 2015 | Output sequences of discrete tokens pointing to inputs | Handles combinatorial optimization problems |
-| [Neural Turing Machines](https://arxiv.org/abs/1410.5401) | Graves et al. | 2014 | Differentiable external memory | Pioneered neural network + data structure combinations |
-| [Order Matters: Sequence to Sequence for Sets](https://arxiv.org/abs/1511.06391) | Vinyals et al. | 2015 | Read/process phase for set inputs | Elegant solution to permutation invariance |
-| [Multi-Scale Context Aggregation by Dilated Convolutions](https://arxiv.org/abs/1511.07122) | Yu & Koltun | 2016 | Dilated/atrous convolutions | Exponentially growing receptive fields |
-| [A Simple Neural Network Module for Relational Reasoning](https://arxiv.org/abs/1706.01427) | Santoro et al. | 2017 | Relation networks | First-class support for reasoning about relationships |
-| [Relational Recurrent Neural Networks](https://arxiv.org/abs/1806.01822) | Santoro et al. | 2018 | Multi-head dot-product attention in RNNs | Combines recurrence with relational reasoning |
+| Paper                                                                                       | Authors        | Year | Key Innovation                                         | Why It Matters                                         |
+| ------------------------------------------------------------------------------------------- | -------------- | ---- | ------------------------------------------------------ | ------------------------------------------------------ |
+| [Pointer Networks](https://arxiv.org/abs/1506.03134)                                        | Vinyals et al. | 2015 | Output sequences of discrete tokens pointing to inputs | Handles combinatorial optimization problems            |
+| [Neural Turing Machines](https://arxiv.org/abs/1410.5401)                                   | Graves et al.  | 2014 | Differentiable external memory                         | Pioneered neural network + data structure combinations |
+| [Order Matters: Sequence to Sequence for Sets](https://arxiv.org/abs/1511.06391)            | Vinyals et al. | 2015 | Read/process phase for set inputs                      | Elegant solution to permutation invariance             |
+| [Multi-Scale Context Aggregation by Dilated Convolutions](https://arxiv.org/abs/1511.07122) | Yu & Koltun    | 2016 | Dilated/atrous convolutions                            | Exponentially growing receptive fields                 |
+| [A Simple Neural Network Module for Relational Reasoning](https://arxiv.org/abs/1706.01427) | Santoro et al. | 2017 | Relation networks                                      | First-class support for reasoning about relationships  |
+| [Relational Recurrent Neural Networks](https://arxiv.org/abs/1806.01822)                    | Santoro et al. | 2018 | Multi-head dot-product attention in RNNs               | Combines recurrence with relational reasoning          |
 
 ### Generative Models
 
-| Paper | Authors | Year | Key Innovation | Why It Matters |
-|-------|---------|------|----------------|----------------|
+| Paper                                                             | Authors     | Year | Key Innovation                          | Why It Matters                          |
+| ----------------------------------------------------------------- | ----------- | ---- | --------------------------------------- | --------------------------------------- |
 | [Variational Lossy Autoencoder](https://arxiv.org/abs/1611.02731) | Chen et al. | 2016 | Hierarchical VAE with learned inference | Advanced generative modeling techniques |
 
-### Applications
+### Applications & ML Systems
 
-| Paper | Authors | Year | Domain | Why It Matters |
-|-------|---------|------|--------|----------------|
-| [Neural Quantum Chemistry](https://arxiv.org/abs/1704.01212) | Gilmer et al. | 2017 | Chemistry | Shows deep learning's reach beyond traditional ML |
+| Paper                                                                                         | Authors        | Year | Domain     | Why It Matters                                           |
+| --------------------------------------------------------------------------------------------- | -------------- | ---- | ---------- | -------------------------------------------------------- |
+| [Neural Quantum Chemistry](https://arxiv.org/abs/1704.01212)                                  | Gilmer et al.  | 2017 | Chemistry  | Shows deep learning's reach beyond traditional ML        |
+| [ML: The High-Interest Credit Card of Technical Debt](https://research.google/pubs/pub43146/) | Sculley et al. | 2015 | ML Systems | Hidden costs and maintenance challenges of production ML |
 
 ### Training & Scaling
 
-| Paper | Authors | Year | Key Innovation | Why It Matters |
-|-------|---------|------|----------------|----------------|
-| [GPipe](https://arxiv.org/abs/1811.06965) | Huang et al. | 2018 | Pipeline parallelism for large models | Essential for training models that don't fit on one GPU |
-| [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361) | Kaplan et al. | 2020 | Power law relationships in model scaling | Predicts performance based on compute/data/parameters |
+| Paper                                                                       | Authors       | Year | Key Innovation                           | Why It Matters                                          |
+| --------------------------------------------------------------------------- | ------------- | ---- | ---------------------------------------- | ------------------------------------------------------- |
+| [GPipe](https://arxiv.org/abs/1811.06965)                                   | Huang et al.  | 2018 | Pipeline parallelism for large models    | Essential for training models that don't fit on one GPU |
+| [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361) | Kaplan et al. | 2020 | Power law relationships in model scaling | Predicts performance based on compute/data/parameters   |
 
 ### Information Theory & Foundations
 
-| Paper | Authors | Year | Key Concept | Why It Matters |
-|-------|---------|------|-------------|----------------|
-| [Keeping Neural Networks Simple by Minimizing Description Length](https://www.cs.toronto.edu/~fritz/absps/colt93.pdf) | Hinton & Van Camp | 1993 | MDL principle for neural networks | Foundational principle: learning is compression |
-| [A Tutorial Introduction to the MDL Principle](https://arxiv.org/abs/math/0406077) | Grünwald | 2004 | Minimum Description Length | Unifies learning and compression theoretically |
-| [Quantifying Complexity in Closed Systems](https://arxiv.org/abs/1306.6730) | Aaronson et al. | 2013 | Complexity measures in physical systems | Theoretical foundations for understanding learning |
-| [The First Law of Complexodynamics](https://scottaaronson.blog/?p=762) | Aaronson | 2013 | Entropy and complexity in physical systems | Deep connections between physics and computation |
+| Paper                                                                                                                 | Authors           | Year | Key Concept                                | Why It Matters                                     |
+| --------------------------------------------------------------------------------------------------------------------- | ----------------- | ---- | ------------------------------------------ | -------------------------------------------------- |
+| [Keeping Neural Networks Simple by Minimizing Description Length](https://www.cs.toronto.edu/~fritz/absps/colt93.pdf) | Hinton & Van Camp | 1993 | MDL principle for neural networks          | Foundational principle: learning is compression    |
+| [A Tutorial Introduction to the MDL Principle](https://arxiv.org/abs/math/0406077)                                    | Grünwald          | 2004 | Minimum Description Length                 | Unifies learning and compression theoretically     |
+| [Quantifying Complexity in Closed Systems](https://arxiv.org/abs/1306.6730)                                           | Aaronson et al.   | 2013 | Complexity measures in physical systems    | Theoretical foundations for understanding learning |
+| [The First Law of Complexodynamics](https://scottaaronson.blog/?p=762)                                                | Aaronson          | 2013 | Entropy and complexity in physical systems | Deep connections between physics and computation   |
 
 ### Books & Theses
 
-| Resource | Author | Year | Topic | Why It Matters |
-|----------|--------|------|-------|----------------|
-| [Machine Super Intelligence](http://www.vetta.org/documents/Machine_Super_Intelligence.pdf) | Shane Legg | 2008 | Formal theories of AGI | Rigorous treatment of intelligence from first principles |
-| [Kolmogorov Complexity](https://www.lirmm.fr/~ashen/kolmbook-eng-scan.pdf) (p.434+) | Li & Vitányi | 2013 | Information theory | Mathematical foundations of information and randomness |
+| Resource                                                                                    | Author       | Year | Topic                  | Why It Matters                                           |
+| ------------------------------------------------------------------------------------------- | ------------ | ---- | ---------------------- | -------------------------------------------------------- |
+| [Machine Super Intelligence](http://www.vetta.org/documents/Machine_Super_Intelligence.pdf) | Shane Legg   | 2008 | Formal theories of AGI | Rigorous treatment of intelligence from first principles |
+| [Kolmogorov Complexity](https://www.lirmm.fr/~ashen/kolmbook-eng-scan.pdf) (p.434+)         | Li & Vitányi | 2013 | Information theory     | Mathematical foundations of information and randomness   |
 
 ### Courses
 
-| Resource | Institution | Topic | Why It Matters |
-|----------|------------|-------|----------------|
-| [CS231n: CNNs for Visual Recognition](https://cs231n.github.io/) | Stanford | Deep learning fundamentals | The best introduction to deep learning, period |
+| Resource                                                         | Institution | Topic                      | Why It Matters                                 |
+| ---------------------------------------------------------------- | ----------- | -------------------------- | ---------------------------------------------- |
+| [CS231n: CNNs for Visual Recognition](https://cs231n.github.io/) | Stanford    | Deep learning fundamentals | The best introduction to deep learning, period |
 
 ---
 
@@ -278,6 +297,7 @@ This roadmap organizes the list by difficulty and learning objectives. Each path
 **Structure:** Meet weekly, with each person responsible for presenting one paper. Budget 2-3 hours per paper for reading and preparation.
 
 **Discussion format:**
+
 - 10 min: Context and motivation
 - 20 min: Main technical content
 - 15 min: Implementation details
@@ -369,6 +389,8 @@ Create your own checklist by copying this into a GitHub issue or personal docume
 - [ ] Neural Machine Translation (Attention)
 - [ ] Pointer Networks
 - [ ] RNN Regularization
+- [ ] Generating Sequences With RNNs
+- [ ] On the difficulty of training RNNs
 - [ ] Identity Mappings in ResNets
 - [ ] Order Matters (Sets)
 - [ ] Dilated Convolutions
@@ -381,6 +403,7 @@ Create your own checklist by copying this into a GitHub issue or personal docume
 - [ ] GPipe
 - [ ] Deep Speech 2
 - [ ] Neural Quantum Chemistry
+- [ ] ML: The High-Interest Credit Card of Technical Debt
 
 ## Theory & Foundations
 - [ ] First Law of Complexodynamics
@@ -403,6 +426,7 @@ Create your own checklist by copying this into a GitHub issue or personal docume
 Share insights, ask questions, and learn together in [GitHub Discussions](../../discussions).
 
 **Popular topics:**
+
 - Paper reading groups
 - Implementation help
 - Conceptual questions
@@ -411,6 +435,7 @@ Share insights, ask questions, and learn together in [GitHub Discussions](../../
 ### Study Groups
 
 Find or start a study group:
+
 - Post in [Issues](../../issues) with tag `study-group`
 - Include your timezone, pace, and preferred communication platform
 - Many groups meet weekly via video call
@@ -418,6 +443,7 @@ Find or start a study group:
 ### Social
 
 Share your progress and connect with others:
+
 - Tag your posts with `#SutskeversListChallenge`
 - Share implementations and learning notes
 - Help others who are earlier in their journey
@@ -464,6 +490,5 @@ Individual papers and resources are subject to their respective licenses and cop
 <div align="center">
 
 **[⬆ Back to top](#sutskever-list)**
-
 
 </div>
