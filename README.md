@@ -166,7 +166,7 @@ This roadmap organizes the list by difficulty and learning objectives. Each path
 
 25. **Quantifying the Rise and Fall of Complexity in Closed Systems: The Coffee Automaton**  
     Formalizing intuitions about complexity. Important for understanding what neural networks can and cannot learn.  
-    [arXiv](https://arxiv.org/abs/1306.6730)
+    [arXiv](https://arxiv.org/abs/1405.6903)
 
 26. **Scaling Laws for Neural Language Models**  
     How model performance scales with compute, data, and parameters. Essential for understanding modern AI capabilities and limitations.  
