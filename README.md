@@ -262,7 +262,7 @@ This roadmap organizes the list by difficulty and learning objectives. Each path
 | --------------------------------------------------------------------------------------------------------------------- | ----------------- | ---- | ------------------------------------------ | -------------------------------------------------- |
 | [Keeping Neural Networks Simple by Minimizing Description Length](https://www.cs.toronto.edu/~fritz/absps/colt93.pdf) | Hinton & Van Camp | 1993 | MDL principle for neural networks          | Foundational principle: learning is compression    |
 | [A Tutorial Introduction to the MDL Principle](https://arxiv.org/abs/math/0406077)                                    | Grünwald          | 2004 | Minimum Description Length                 | Unifies learning and compression theoretically     |
-| [Quantifying Complexity in Closed Systems](https://arxiv.org/abs/1306.6730)                                           | Aaronson et al.   | 2013 | Complexity measures in physical systems    | Theoretical foundations for understanding learning |
+| [Quantifying Complexity in Closed Systems](https://arxiv.org/abs/1405.6903)                                           | Aaronson et al.   | 2013 | Complexity measures in physical systems    | Theoretical foundations for understanding learning |
 | [The First Law of Complexodynamics](https://scottaaronson.blog/?p=762)                                                | Aaronson          | 2013 | Entropy and complexity in physical systems | Deep connections between physics and computation   |
 
 ### Books & Theses
