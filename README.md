@@ -367,8 +367,6 @@ We welcome contributions from the community! This repository improves when peopl
 - Follow the existing format
 - Be respectful and constructive in discussions
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
-
 ---
 
 ## Progress Tracking
@@ -489,6 +487,6 @@ Individual papers and resources are subject to their respective licenses and cop
 
 <div align="center">
 
-**[⬆ Back to top](#sutskever-list)**
+**[⬆ Back to top](# Sutskever's List)**
 
 </div>
