@@ -1,4 +1,7 @@
+<a id="top"></a>
+
 <div align="center">
+
 
 # Sutskever's List
 
@@ -487,6 +490,6 @@ Individual papers and resources are subject to their respective licenses and cop
 
 <div align="center">
 
-**[⬆ Back to top](# Sutskever's List)**
+**[⬆ Back to top](#top)**
 
 </div>
