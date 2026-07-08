@@ -13,7 +13,7 @@
 _"If you really learn all of these, you'll know 90% of what matters today."_  
 — Ilya Sutskever (Co-founder of OpenAI, Former Chief Scientist)
 
-[About](#about) • [Reading Roadmap](#reading-roadmap) • [Papers by Topic](#papers-by-topic) • [Getting Started](#getting-started) • [Contributing](#contributing)
+[About](#about) • [Reading Roadmap](#reading-roadmap) • [Papers by Topic](#papers-by-topic) • [Contributing](#contributing)
 
 </div>
 
@@ -281,71 +281,6 @@ This roadmap organizes the list by difficulty and learning objectives. Each path
 | ---------------------------------------------------------------- | ----------- | -------------------------- | ---------------------------------------------- |
 | [CS231n: CNNs for Visual Recognition](https://cs231n.github.io/) | Stanford    | Deep learning fundamentals | The best introduction to deep learning, period |
 
----
-
-## Getting Started
-
-### For Self-Learners
-
-**Start with the fundamentals:** If you're new to deep learning, begin with CS231n and work through the Beginner Path sequentially. Don't skip ahead—each paper builds on previous concepts.
-
-**Implement as you learn:** The best way to understand these papers is to implement them. Start with The Annotated Transformer as a template for how to read a paper while coding.
-
-**Take notes:** Maintain a learning journal where you summarize each paper in your own words. This active processing dramatically improves retention.
-
-**Join the community:** Use GitHub Discussions to ask questions, share insights, and find study partners.
-
-### For Study Groups
-
-**Structure:** Meet weekly, with each person responsible for presenting one paper. Budget 2-3 hours per paper for reading and preparation.
-
-**Discussion format:**
-
-- 10 min: Context and motivation
-- 20 min: Main technical content
-- 15 min: Implementation details
-- 15 min: Discussion and connections to other papers
-
-**Shared implementation:** As a group, implement 3-5 of the most important papers from scratch. This shared codebase becomes a learning resource for everyone.
-
-### For Researchers
-
-**Use as a foundation:** If you're entering a new research area, this list provides the essential background. Use the Theory section to ground your intuitions.
-
-**Connect to your work:** As you read each paper, explicitly note connections to your research interests. This builds a mental map of the field.
-
-**Contribute back:** Once you've mastered the list, consider contributing summaries, implementations, or teaching others.
-
----
-
-## Implementation Resources
-
-### Code Repositories
-
-Several papers have excellent reference implementations:
-
-- **The Annotated Transformer**: Complete working implementation in PyTorch
-- **CS231n Assignments**: Hands-on coding exercises for CNNs, RNNs, and transformers
-- **AlexNet**: Available in all major frameworks
-- **ResNet**: Official implementation and countless tutorials
-
-### Recommended Tools
-
-- **PyTorch**: Best for research and learning (dynamic computation graphs)
-- **JAX**: Excellent for understanding autograd and transformations
-- **NumPy**: Implement from scratch for deepest understanding
-
-### Learning Projects
-
-After mastering the core papers, build these projects to solidify understanding:
-
-1. **Character-level language model** (RNNs + LSTMs)
-2. **Image classifier from scratch** (CNNs + ResNets)
-3. **Machine translation system** (Attention + Transformers)
-4. **Neural Turing Machine** (External memory)
-
----
-
 ## Contributing
 
 We welcome contributions from the community! This repository improves when people share their insights and implementations.
@@ -417,39 +352,6 @@ Create your own checklist by copying this into a GitHub issue or personal docume
 - [ ] Machine Super Intelligence
 - [ ] Kolmogorov Complexity (Chapter 7)
 ```
-
----
-
-## Community
-
-### Discussions
-
-Share insights, ask questions, and learn together in [GitHub Discussions](../../discussions).
-
-**Popular topics:**
-
-- Paper reading groups
-- Implementation help
-- Conceptual questions
-- Research connections
-
-### Study Groups
-
-Find or start a study group:
-
-- Post in [Issues](../../issues) with tag `study-group`
-- Include your timezone, pace, and preferred communication platform
-- Many groups meet weekly via video call
-
-### Social
-
-Share your progress and connect with others:
-
-- Tag your posts with `#SutskeversListChallenge`
-- Share implementations and learning notes
-- Help others who are earlier in their journey
-
----
 
 ## FAQ
 
